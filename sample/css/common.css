@@ -11,7 +11,7 @@ header{
   margin: 0 auto 20px;
   padding: 30px 0 0 ;
 }
-body{
+body　html{
   font-size: 1.6em
 }
 .logo{
@@ -21,12 +21,11 @@ body{
 .global-nav ul{
   box-shadow: 0 4px 10px 0;
   display: flex;
-  list-style-type: none;
   justify-content: space-between;
+  list-style-type: none;
 }  
 .global-nav ul li{
-  line-height: 5px;
-  
+  line-height: 5px;  
 }
 
 .breadcrumb ol{
