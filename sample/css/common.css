@@ -1,0 +1,36 @@
+*.
+*::before
+*::after{
+  box-sizing: border-box;
+}
+html body{
+  font-size: 1.6rem;
+}
+header footer .l-wrapper{
+  width: 840px;
+  margin: auto;
+}
+header{
+  margin: 0 auto 20px;
+  padding: 30px 0 0;
+}
+.logo{
+  text-align: center;
+  padding: 6px 0;
+}
+.global-nav ul{
+  box-shadow: 0 4px 10px 0;
+  display: flex;
+  justify-content: space-between;
+  list-style-type: none;
+}
+.global-nav ul li{
+  line-height: 5px;
+}
+.breadcrumb ol{
+  display: flex;
+  list-style-type: none;
+}
+.l-wrapper-contents{
+  display: flex;
+}
