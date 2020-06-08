@@ -118,14 +118,16 @@ header {
   display: flex;
   justify-content: space-between;
 }
-
+main{
+  width: 570px;
+}
 main h1 {
   background-image: url(../images/bg_h1_head.png), url(../images/bg_h1_bottom.png);
   background-position: left top, left bottom;
   background-repeat: no-repeat, no-repeat;
   font-size: 2.4rem;
   padding: 36px 0 36px 66px;
-  width: 570px;
+  
 }
 
 .l-side-area {
@@ -175,6 +177,21 @@ footer address {
   font-style: normal;
   margin: 0 0 10px;
 }
+main h2{
+  background-image: url(../images/bg_h2_bottom.png),url(../images/bg_h2_head.png);
+  background-position: bottom,left top;
+  background-repeat: no-repeat,no-repeat;
+  padding:20px  30px;
+}
+
+.topics-list li{
+  border-bottom: medium dotted #CCC7BD;
+  padding: 20px 0;
+}
+.topics-list li time{
+  font-weight: bold;
+  width: 130px;
+}
 
 @media screen and (max-width:767px) {
   .sp{
@@ -209,18 +226,29 @@ footer address {
   .global-nav ul li:first-child a,
   .global-nav ul li:last-child a{
     border-radius: 0;
-    } 
+  } 
   .global-nav ul li:last-child a {
     border-radius: 0;
   }
   .side-banner{
     width: 230px;
     margin: 0 auto;
-}
+  }
   .side-banner:not(:last-child) {
     margin: 0 auto 30px;
   }
   main{
     padding-bottom: 60px;
   }
+   .topics-list li time,
+  .topics-list li span{
+    display: block;
+    width: 100%;
+  }
+   .topics-list {
+    padding: 0 4%;
+  } 
+  .topics-list li time{
+    margin: 0 0 4px;
+  } 
 }
