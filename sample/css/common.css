@@ -8,17 +8,17 @@
 }
 
 html {
-  font-size: 62.5%;
+  font-size: 67.5%;
 }
 
 body {
-  background-color: #f4f2ea;
+  background-color: #f4f2ea; 
   font-size: 1.6rem;
 }
 
 body,
 a {
-  color: #624f3b;
+  color: #624f3b; 
 }
 
 h1, h2, p, ul, ol {
@@ -62,7 +62,7 @@ header {
 }
 
 .global-nav ul li:not(:last-child) {
-  border-right: solid 1px #fff;
+  border-right: solid 1px #fff ; 
 }
 
 .global-nav ul li a {
@@ -123,11 +123,10 @@ main{
 }
 main h1 {
   background-image: url(../images/bg_h1_head.png), url(../images/bg_h1_bottom.png);
-  background-position: left top, left bottom;
+  background-position: left top, left bottom; 
   background-repeat: no-repeat, no-repeat;
   font-size: 2.4rem;
-  padding: 36px 0 36px 66px;
-  
+  padding: 36px 0 36px 66px;   
 }
 
 .l-side-area {
@@ -174,9 +173,14 @@ footer {
 }
 
 footer address {
-  font-style: normal;
-  margin: 0 0 10px;
+  font-style: normal; 
+  margin: 0 0 10px; 
 }
+
+.bx-wrapper{
+  margin-bottom: 30px;
+}
+
 main h2{
   background-image: url(../images/bg_h2_bottom.png),url(../images/bg_h2_head.png);
   background-position: bottom,left top;
@@ -220,8 +224,8 @@ main h2{
     flex-wrap: wrap;
   }
   .global-nav ul li:not(:last-child) {
-    border-bottom: solid 1px #fff;
-    border-right: none;
+    border-bottom: solid 1px #fff; 
+    border-right: none; 
   }
   .global-nav ul li:first-child a,
   .global-nav ul li:last-child a{
@@ -237,18 +241,23 @@ main h2{
   .side-banner:not(:last-child) {
     margin: 0 auto 30px;
   }
-  main{
-    padding-bottom: 60px;
+  .slideshow img{
+    height: auto;
+    width: 100%;
   }
-   .topics-list li time,
+
+  main{
+    padding-bottom: 60px; 
+  }
+  .topics-list li time,
   .topics-list li span{
     display: block;
     width: 100%;
   }
    .topics-list {
-    padding: 0 4%;
+    padding: 0 4%; 
   } 
   .topics-list li time{
-    margin: 0 0 4px;
+    margin: 0 0 4px; 
   } 
 }

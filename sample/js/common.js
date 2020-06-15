@@ -1,9 +1,22 @@
 $(function(){
   'use strict';
   
-  $('#pageTop').on('click',function(){
+  let pageTop = function( time ){
     $('html,body').animate({
       scrollTop: 0
-    });
+    },time);  
+  }
+  
+  $('#pageTop').on('click',function(){
+      pageTop(600);
+  });
+  
+  $('#slideshow').bxSlider({
+    auto: true,
+    controls: false,
+    mode: 'fade',
+    pager: false,
+    spead: 1000,
+    touchEnabled: false,
   });
 });
