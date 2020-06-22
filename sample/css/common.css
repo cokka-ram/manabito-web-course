@@ -21,7 +21,7 @@ a {
   color: #624f3b; 
 }
 
-h1, h2, p, ul, ol {
+h1, h2, p, ul, ol ,figure{
   margin: 0;
   padding: 0;
 }
@@ -32,6 +32,12 @@ ul, ol {
 
 a {
   text-decoration: none;
+}
+
+.clearfix::after{
+  clear: both;
+  content: "";
+  display: block;
 }
 
 header,
@@ -127,7 +133,32 @@ main h1 {
   background-repeat: no-repeat, no-repeat;
   font-size: 2.4rem;
   padding: 36px 0 36px 66px;   
+  margin: 0 0 30px;
 }
+ 
+ .concept-article  h2{
+  margin: 0 0 16px;
+}
+ 
+.concept-article:nth-of-type(1) figure{
+ float: right;
+ margin: 0 0 0 26px;
+}
+.concept-article:nth-of-type(2) figure{
+ float: left;
+margin: 0 26px 0 0 ;
+}
+ 
+ .concept-article  p{
+  font-size: 1.4rem;
+  line-height: 2rem;
+}
+ 
+ .concept-article p:not(last-child){
+   margin: 0 0 30px;
+ }
+
+
 
 .l-side-area {
   width: 230px;
