@@ -146,7 +146,7 @@ main h1 {
 }
 .concept-article:nth-of-type(2) figure{
  float: left;
-margin: 0 26px 0 0 ;
+ margin: 0 26px 0 0 ;
 }
  
  .concept-article  p{
@@ -227,6 +227,13 @@ main h2{
   font-weight: bold;
   width: 130px;
 }
+.font-bold{
+  font-weight: bold;
+}
+
+
+
+
 
 @media screen and (max-width:767px) {
   .sp{
@@ -291,4 +298,24 @@ main h2{
   .topics-list li time{
     margin: 0 0 4px; 
   } 
+.concept-article:nth-of-type(1) figure,
+.concept-article:nth-of-type(2) figure{
+ float: none;
+ margin: 0 0 20px;
+}
+.concept-article img{
+  width: 100%;
+  height: auto;
+
+}
+.concept-article{
+  padding: 0 4%;
+}
+
+
+}
+@media screen and (max-width:320px) { */
+.concept-article h2{
+  font-size: 1.8rem;
+}
 }
