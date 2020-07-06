@@ -229,9 +229,47 @@ main h2{
 }
 .font-bold{
   font-weight: bold;
+  text-align: left;
+}
+.plan-table{
+border-collapse: collapse;
+line-height: 1.5;
+}
+
+caption{
+  margin-bottom: 30px;
+  font-size: 1.4rem;
+}
+caption p{
+  text-align: justify;
+}
+
+.plan-table th, 
+.plan-table td{
+  border:  solid 1px #9e9076;
+  padding: 18px 14px;
+  font-size: 1.4rem;
+}
+.plan-table th:first-child{
+  width: 100px;
+}
+thead tr td{
+  text-align: center;
 }
 
 
+
+.plan-table thead tr {
+  background-color: #f0e7cf;
+  height: 50px;
+  font-weight:  bold;
+}
+.plan-table tbody tr:nth-child(odd){
+  background-color: #fff;
+}
+.plan-table tbody tr:nth-child(even){
+  background-color: #F6F2F0;
+}
 
 
 
@@ -284,20 +322,20 @@ main h2{
     width: 100%;
   }
 
-  main{
-    padding-bottom: 60px; 
-  }
-  .topics-list li time,
-  .topics-list li span{
-    display: block;
-    width: 100%;
-  }
-   .topics-list {
-    padding: 0 4%; 
-  } 
-  .topics-list li time{
-    margin: 0 0 4px; 
-  } 
+main{
+  padding-bottom: 60px; 
+}
+.topics-list li time,
+.topics-list li span{
+  display: block;
+  width: 100%;
+}
+.topics-list {
+  padding: 0 4%; 
+} 
+.topics-list li time{
+  margin: 0 0 4px; 
+} 
 .concept-article:nth-of-type(1) figure,
 .concept-article:nth-of-type(2) figure{
  float: none;
@@ -311,9 +349,14 @@ main h2{
 .concept-article{
   padding: 0 4%;
 }
-
-
+.plan-table-wrapper{
+  overflow-x: scroll;
+  margin: 0 4%;
 }
+.plan-table{
+  width:570px;
+}
+
 @media screen and (max-width:320px) { */
 .concept-article h2{
   font-size: 1.8rem;
