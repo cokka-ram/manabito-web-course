@@ -270,8 +270,35 @@ thead tr td{
 .plan-table tbody tr:nth-child(even){
   background-color: #F6F2F0;
 }
-
-
+/* 2 */
+.fair-description{
+  font-size: 1.4rem;
+  margin: 0 auto 25px;
+  line-height:1.5;  
+}
+/* 3 */
+.fair-list{
+  display: flex;
+  justify-content: space-between;
+  flex-wrap: wrap;
+  /* 左右均等揃え
+  段落ち */
+  
+}
+/* 2 */
+.fair-list li{
+  width: 180px;
+  /* 横幅固定
+  上下の隙間 */
+}
+/* 2 */
+.fair-list img{
+  
+}
+/* 2 */
+.fair-list figcaption{
+  
+}
 
 @media screen and (max-width:767px) {
   .sp{
