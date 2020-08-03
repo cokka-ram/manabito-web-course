@@ -311,6 +311,70 @@ thead tr td{
   line-height: 1.5;  
 }
 
+/* ここからお問い合わせ */
+.contact-description{
+  font-size: 1.4rem;
+  margin: 0 0 30px;
+}
+
+
+.contact-caption{
+  list-style-type: disc;
+  margin: 0 0 20px;
+  padding:  0 0 0 40px;
+}
+.contact-caption li{
+  font-size: 1.4rem;
+}
+
+.contact-caption li:not(:last-child){
+  margin: 0 0 10px;
+}
+.contact-from{
+  border-collapse: collapse;
+  margin: 0 0 30px;
+  width: 100%;
+  
+}
+ .contact-from th{
+   background-color: #f0e7cf;
+   text-align: left;
+   width: 200px;
+ }
+ .contact-from td{
+   background-color: #fff;
+   width: 370px;
+ }
+ 
+ 
+ .contact-from th,
+ .contact-from td{
+  border:solid 1px #9e9076;
+  padding: 10px;
+}
+.contact-from td input[type=text]{
+  height: 30px;
+  width: 200px;
+}
+.contact-from td input[type-email]{
+  height: 30px;
+  width: 250px;
+}
+.contact-from td textarea{
+  height: 90px;
+  width: 100%;
+}
+.contact-form-submit{
+  background-color: #9d886d;
+  border:none;
+  border-radius: 5px;
+  color: #fff;
+  display: flex;
+  justify-content: center;
+  height: 50px;
+  margin: 0 auto;
+  width: 200px;
+}
 @media screen and (max-width:767px) {
   .sp{
     display: block;
