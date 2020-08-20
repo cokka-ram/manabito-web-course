@@ -315,54 +315,69 @@ thead tr td{
 .contact-description{
   font-size: 1.4rem;
   margin: 0 0 30px;
+
 }
 
 
-.contact-caption{
+.contact-caution{
   list-style-type: disc;
   margin: 0 0 20px;
   padding:  0 0 0 40px;
 }
-.contact-caption li{
+.contact-caution li{
   font-size: 1.4rem;
 }
 
-.contact-caption li:not(:last-child){
+.contact-caution li:not(:last-child){
   margin: 0 0 10px;
 }
-.contact-from{
+.contact-form{
   border-collapse: collapse;
   margin: 0 0 30px;
   width: 100%;
   
 }
- .contact-from th{
+ .contact-form th{
    background-color: #f0e7cf;
    text-align: left;
    width: 200px;
  }
- .contact-from td{
+ .contact-form td{
    background-color: #fff;
    width: 370px;
  }
  
  
- .contact-from th,
- .contact-from td{
+ .contact-form th,
+ .contact-form td{
   border:solid 1px #9e9076;
   padding: 10px;
+  font-size: 1.4rem;
 }
-.contact-from td input[type=text]{
+.contact-form td input[type=text]{
   height: 30px;
   width: 200px;
 }
-.contact-from td input[type-email]{
+.contact-form td input[type=email]{
   height: 30px;
   width: 250px;
 }
-.contact-from td textarea{
+.kind-list{
+  display: flex;
+  flex-wrap: wrap; 
+}
+.kind-list li{
+  margin: 0 0 10px;
+  width: 50%;
+}
+.kind-list li:nth-last-child(-n+2){
+  margin-bottom: 0;
+}
+.contact-form td textarea{
   height: 90px;
   width: 100%;
+  resize: none;
+  overflow-y: scroll;
 }
 .contact-form-submit{
   background-color: #9d886d;
@@ -375,6 +390,7 @@ thead tr td{
   margin: 0 auto;
   width: 200px;
 }
+
 @media screen and (max-width:767px) {
   .sp{
     display: block;
@@ -480,7 +496,26 @@ main{
   height: auto;
   width: 100%;
 }
-
+.contact-description{
+  margin: 0 4% 30px;
+  width: 92%;
+}
+.contact-caution{
+  margin: 0 4% 30px;
+  width: 92%;
+  padding: 0 0 0 20px;
+}
+.contact-form{
+  margin: 0 4% 30px;
+  width: 92%;
+}
+.contact-form th,
+.contact-form td{
+  border: none;
+  display: block;
+  width: 100%;
+}
+}
 @media screen and (max-width:320px) { */
 .concept-article h2{
   font-size: 1.8rem;

@@ -39,12 +39,12 @@
           <p class="contact-description">
             会場やプランについてのお問い合わせは、下記フォームよりお気軽にお寄せください。
           </p>
-          <ol class="contact-caption">
+          <ol class="contact-caution">
             <li>必要事項を記入し、「送信する」をクリックしてください。</li>
             <li>ご登録いただいた個人情報は、お問い合わせ内容の確認以外には使用いたしません。</li>
           </ol>
           <form action="" method="post">
-              <table class="contact-from">
+              <table class="contact-form">
                 <tr>
                   <th>
                     <label for="name_id">お名前(必須)</label>
@@ -66,10 +66,20 @@
                     <label for="">お問い合わせの種類</label>
                   </th>
                   <td>
-                    <input type="radio" name="kind" value="0" id="kind0">
-                    <label for="kind0">事前のご相談</label>
-                    <input type="radio" name="kind" value="1" id="kind1">
-                    <label for="kind1">その他</label>
+                    <ul class="kind-list">
+                      <li>
+                        <input type="radio" name="kind" value="0" id="kind0"><label for="kind0">事前のご相談</label>
+                      </li>
+                      <li>
+                        <input type="radio" name="kind" value="1" id="kind1"><label for="kind1">その他</label>
+                      </li>
+                      <li>
+                        <input type="radio" name="kind" value="1" id="kind1"><label for="kind1">その他</label>
+                      </li>
+                      <li>
+                        <input type="radio" name="kind" value="1" id="kind1"><label for="kind1">その他</label>
+                      </li>
+                    </ul>
                   </td>
                 </tr>
                 <tr>
