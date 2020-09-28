@@ -30,7 +30,6 @@ header{
   padding: 170px 0 80px;
 }
 
-
 .site-title{
   font-size: 7.6rem;
   margin: 0 0 40px;
@@ -192,8 +191,52 @@ width: 150px;
 
 .contact-form input[type=text],
 .contact-form textarea{
+  border-radius: 0;
+  border: 1px solid rgba(255,255,255,.4);
+  background-color: rgba(255,255,255,.05);
+  color:#fff;
   display: block;
-  margin : 0 0 10px;
+  outline: none;
   padding: 15px;
   width: 100%;
+}
+
+.contact-form input[type=text]{
+  margin :0 0 10px;
+}
+
+
+.contact-form textarea{
+  height: 150px;
+  margin: 0 0 40px;
+}
+
+.contact-form input[type=submit]{
+  display: block;;
+  width: 200px;
+  margin: 0 auto;
+  padding: 15px;
+  border: 1px solid rgba(255,255,255,.4);
+  border-radius: 5px;
+  background-color: transparent;
+  color: rgba(255,255,255,.6);
+  cursor: pointer;
+}
+
+.contact-form input[type=submit]:hover{
+  background-color: rgba(255,255,255,.05);
+}
+
+.contact-form input[type=text]:focus,
+.contact-form textarea:focus{
+  box-shadow: 0 0 8px rgba(255,255,255,.5) inset;
+}
+
+footer{
+  padding: 12px 0;
+  font-size: 1.3rem;
+}
+
+@media(max-width:600px) {
+  
 }
